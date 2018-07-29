@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uyttendaele1990/portfolio.git"
+  },
+  "author": "Kenneth Uyttendaele",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uyttendaele1990/portfolio/issues"
+  },
+  "homepage": "https://github.com/uyttendaele1990/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
