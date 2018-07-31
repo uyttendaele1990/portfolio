@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
+    <title>about Me</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body id='bg-img'>
+<body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -34,12 +34,12 @@
                 <div class="portrait"></div>
             </div>
             <ul class="menu-nav">
-                <li class="nav-item current">
+                <li class="nav-item">
                     <a href="index.html" class="nav-link">
                         Home
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item current">
                     <a href="about.php" class="nav-link">
                         About me
                     </a>
@@ -58,23 +58,29 @@
         </nav>
     </header>
 
-    <main id="home">
+    <main id="about">
         <h1 class="lg-heading">
-            Kenneth
-            <span class='text-secondary'>Uyttendaele</span>
+            About 
+            <span class='text-secondary'>Me</span>
         </h1>
         <h2 class="sm-heading">
-            Web-developer, Programmer
+            Kenneth Uyttendaele
         </h2>
-        <div class="icons">
-            <a target='_blank' href="https://www.facebook.com/kennethuyttendaele">
-                <i class="fab fa-facebook fa-2x"></i>
-            </a>
-            <a target='_blank' href="https://github.com/uyttendaele1990">
-                <i class="fab fa-github fa-2x"></i>
-            </a>
+        <div class="about-info">
+            <img src="img/iksm.png" alt="Me" class="bio-image">
+            <div class="bio">
+                <h3 class="text-secondary">Info</h3>
+                <p>Ik ben Kenneth Uyttendaele 27 jaar, omgeschoold tot web-developer.<br>
+                Ik heb een echte hobby gevonden in programmeren, ikzelf heb nu iets meer affiniteit voor back-end,<br>
+                maar het is mijn droom om uiteindelijk een full-stack te worden nadat mijn front-end de nodige verfijning heeft gekregen die het nodig heeft. </p>
+            </div>    
         </div>
     </main>
+
+    <footer class="main-footer">
+        Copyright &copy;
+        <?php echo date("Y"); ?>
+    </footer></center>
 
     <script src="js/main.js"></script>
 </body>

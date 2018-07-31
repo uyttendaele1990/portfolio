@@ -29,6 +29,14 @@ $background-opacity: 0.9;
   }
 }
 
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #444;
+  } @else {
+    @return #fff;
+  }
+}
+
 @mixin mediaSm {
   @media screen and (max-width: 500px) {
     @content;
@@ -40,12 +48,12 @@ $background-opacity: 0.9;
   }
 }
 @mixin mediaLg {
-  @media screen and (min-width: 769px) and (max-width: 1173px) {
+  @media screen and (min-width: 769px) and (max-width: 1015px) {
     @content;
   }
 }
 @mixin mediaXl {
-  @media screen and (min-width: 1171px) {
+  @media screen and (min-width: 1016px) {
     @content;
   }
 }
