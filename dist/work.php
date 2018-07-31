@@ -50,7 +50,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact.html" class="nav-link">
+                    <a href="contact.php" class="nav-link">
                         How to reach me
                     </a>
                 </li>

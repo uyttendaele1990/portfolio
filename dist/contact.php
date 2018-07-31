@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
+    <title>Contactt Me</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body id='bg-img'>
+<body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -34,7 +34,7 @@
                 <div class="portrait"></div>
             </div>
             <ul class="menu-nav">
-                <li class="nav-item current">
+                <li class="nav-item">
                     <a href="index.html" class="nav-link">
                         Home
                     </a>
@@ -49,7 +49,7 @@
                         My Work
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item current">
                     <a href="contact.php" class="nav-link">
                         How to reach me
                     </a>
@@ -58,23 +58,28 @@
         </nav>
     </header>
 
-    <main id="home">
-        <h1 class="lg-heading">
-            Kenneth
-            <span class='text-secondary'>Uyttendaele</span>
+    <main id="contact">
+    <h1 class="lg-heading">
+            Contact 
+            <span class='text-secondary'>Me</span>
         </h1>
-        <h2 class="sm-heading">
-            Web-developer, Programmer
-        </h2>
-        <div class="icons">
-            <a target='_blank' href="https://www.facebook.com/kennethuyttendaele">
-                <i class="fab fa-facebook fa-2x"></i>
-            </a>
-            <a target='_blank' href="https://github.com/uyttendaele1990">
-                <i class="fab fa-github fa-2x"></i>
-            </a>
+        <div class="boxes">
+            <div>
+                <span class="text-secondary">Email:</span> uyttendaele1990@gmail.com
+            </div>
+            <div>
+                <span class="text-secondary">telefoon:</span> 0496982421
+            </div>
+            <div>
+                <span class="text-secondary">Adres:</span> René Vermandelstraat 14, 9060 Zelzate
+            </div>
         </div>
     </main>
+
+    <footer class="main-footer">
+        Copyright &copy;
+        <?php echo date("Y"); ?>
+    </footer></center>
 
     <script src="js/main.js"></script>
 </body>
